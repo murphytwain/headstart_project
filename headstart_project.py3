@@ -10,7 +10,7 @@ from sys import exit
 
 
 # loading the data from the csv file to apandas dataframe
-movies_data = pd.read_csv('/home/aditya/Documents/books/headstart/movies.csv')
+movies_data = pd.read_csv('https://github.com/murphytwain/headstart_project/blob/main/movies.csv')
 
 # selecting the relevant features for recommendation
 selected_features = ['genres','keywords','tagline','cast','director']
